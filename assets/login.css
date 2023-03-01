@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lucida", "Lucida Sans Regular", "sans-serif";
+  background-color: black;
+}
+
+.gifer {
+  object-fit: fill;
+  margin-top: 8.5rem;
+  margin-bottom: 5rem;
+  margin-left: 37%;
+  width: 25rem;
+  height: 17rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+.signin {
+  color: #bc13fe;
+  font-size: larger;
+  margin-left: 50%;
+}
+
+form {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 8rem;
+  color: #bc13fe;
+  font-size: larger;
+  margin-bottom: 3rem;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+}
+
+input {
+  height: 1.5rem;
+  width: 10rem;
+  outline: 2px solid blueviolet;
+  border-radius: 10px;
+}
+
+input:focus {
+  outline: 2px solid #bc13fe;
+}
+
+label,
+input {
+  margin: 2rem;
+}
+
+.fake-corpo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.ryu {
+  width: 15rem;
+  height: 10rem;
+}
+
+.fake-corpo > p {
+  margin: 4rem 3rem 0rem 3rem;
+  text-align: center;
+  color: #bc13fe;
+  font-size: larger;
+}
